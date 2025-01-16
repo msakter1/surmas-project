@@ -75,12 +75,7 @@ nav li {
     color: rgb(246, 246, 251);
 }
 
-/* .sidebar .book-preview:hover {
-    background: rgb(132, 141, 200);
-    transform: translateY(-5px);
-} */
-
-.topics .li:hover {
-    background: rgb(132, 141, 200);
+nav .topics .topic:hover {
+    background: rgb(207, 153, 223);
     transform: translateY(-5px);
 }
