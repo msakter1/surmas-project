@@ -1,0 +1,46 @@
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+
+/* main {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */
+main {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #404065;
+}
+
+.container {
+    display: flex;
+    gap: 20px; /* Space between the columns */
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container */
+    background-color: rgb(255, 255, 255);
+}
+
+.main-content {
+    flex: 2; /* Takes up more space */
+    background: rgb(230, 234, 254);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    flex: 1; /* Takes up less space */
+    background: rgb(230, 234, 254); /* Sage green */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;  /* rounded edges */
+}

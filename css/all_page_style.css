@@ -1,0 +1,76 @@
+/*Change the styling for all of the list 
+items in the nav section*/
+
+body {
+	margin:1%;
+	font-size:125%;
+}
+
+.topics {
+    text-transform: uppercase;
+	text-align: center;
+}
+
+.topics a.active {
+    background: rgb(81, 81, 142);
+}
+
+nav ul li{
+	background-color: rgb(55, 55, 129);;
+	padding:10px;
+	width:25%;
+    border-radius: 8px;
+	display: inline-block;
+	width: 20%;
+    font-family: bold, arial;
+    color: rgb(0, 0, 0); 
+    font-weight: bold;
+}
+
+a {
+    color: rgb(210, 216, 255);
+    text-decoration: none; 
+}
+
+/*Improve the spacing for paragraphs AND headings*/
+h1, h2 {
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+    color: #303064;
+    text-align: center;
+}
+
+/*Added this so the links stay the same color*/
+a:visited{color:  rgb(210, 216, 255)}
+
+
+/*Add borders around the main components and some
+space too*/
+footer{
+	margin: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between; /* Distributes space evenly */
+    gap: 20px; 
+    padding: 0; /* Removes default padding */
+    margin: 0;  /* Removes default margin */
+    list-style-type: none; /* Removes default bullets */
+}
+
+nav li {
+    width: 20%;  /* Each box takes up 20% of the available space */
+    padding: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.topics li.active {
+    background: rgb(84, 84, 149);
+}
+
+.topics li.active a{
+    color: rgb(246, 246, 251);
+}

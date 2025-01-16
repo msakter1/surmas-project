@@ -1,0 +1,80 @@
+
+/* Sidebar */
+main {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #404065;
+}
+
+.container {
+    display: flex;
+    gap: 20px; /* Space between the columns */
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container */
+    background-color: rgb(255, 255, 255);
+}
+
+
+.sidebar {
+    width: 300px;
+    background-color:rgb(210, 216, 255);
+    color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+  
+.sidebar h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+.sidebar .book-preview {
+    background: rgb(147, 159, 222);
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .book-preview:hover {
+    background: rgb(132, 141, 200);
+    transform: translateY(-5px);
+}
+
+.sidebar .book-preview h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.sidebar .book-preview p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #d9e1f2;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color:rgb(210, 216, 255);
+    overflow-y: auto;
+}
+
+.main-content h1 {
+    font-size: 2em;
+    color: rgb(210, 216, 255);
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
